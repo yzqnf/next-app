@@ -1,11 +1,10 @@
 'use client'
 
 import Image from 'next/image'
-import styles from '@/app/page.module.css'
+import styles from '@/styles/page.module.css'
 import Link from 'next/link'
 // import Router from 'next/router'
 import { useRouter } from 'next/navigation'
-import Header from '../components/header'
 
 
 export default function Home() {
@@ -15,7 +14,6 @@ export default function Home() {
   }
   return (
     <main className={styles.main}>
-      <Header />
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;

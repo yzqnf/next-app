@@ -1,0 +1,17 @@
+$primary-color: #4b5256;
+
+.main {
+  display: flex;
+  height: 100vh;
+  color: $primary-color;
+  background-color: transparent;
+
+  section {
+    width: calc(100% - 250px);
+    padding: 32px;
+  }
+}
+
+:export {
+  primaryColor: $primary-color
+}

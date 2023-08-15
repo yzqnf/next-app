@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router'
-import Header from '../../../components/header'
+import Layout from '@/components/layout'
+import Navbar from '@/components/navbar'
 
 export default function CommentPage() {
   const router = useRouter()
@@ -7,10 +8,20 @@ export default function CommentPage() {
   const comment = router.query.comment
 
   return (
-    <>
-      <Header />
-      <h1>Post: {id}</h1>
-      <h1>Comment: {comment}</h1>
-    </>
+    <section>
+      <main>
+        <h1>Post: {id}</h1>
+        <h1>Comment: {comment}</h1>
+      </main>
+    </section>
+  )
+}
+
+CommentPage.getLayout = function getLayout(page) {
+  return (
+    <Layout>
+      <Navbar />
+      {page}
+    </Layout>
   )
 }
