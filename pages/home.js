@@ -3,7 +3,6 @@
 import Image from 'next/image'
 import styles from '@/styles/page.module.css'
 import Link from 'next/link'
-// import Router from 'next/router'
 import { useRouter } from 'next/navigation'
 
 

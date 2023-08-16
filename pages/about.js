@@ -1,4 +1,3 @@
-import { useRouter } from 'next/navigation'
 import Layout from '../components/layout'
 import Navbar from '../components/navbar'
 import styles from '@/styles/page.module.css'
@@ -15,6 +14,9 @@ export default function About() {
         </div>
 
         <h2>Layout Example (About)</h2>
+        <span className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
+          Badge
+        </span>
       </main>
     </section>
   )

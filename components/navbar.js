@@ -9,6 +9,8 @@ export default function Navbar() {
       <Link href="/about">About</Link>
       <Link href="/post/first">First post</Link>
       <Link href="/post/second">Second post</Link>
+      <Link href="/api/user">User</Link>
+
     </nav>
   )
 }
