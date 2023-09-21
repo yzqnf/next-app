@@ -10,7 +10,7 @@ export default function CommentPage() {
   return (
     <section>
       <main>
-        <h1>Post: {id}</h1>
+        <h1 className='text-xl italic'>Post: {id}</h1>
         <h1>Comment: {comment}</h1>
       </main>
     </section>

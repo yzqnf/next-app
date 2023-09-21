@@ -9,15 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.16",
+    "@heroicons/react": "^2.0.18",
     "@types/node": "18.15.11",
     "@types/react": "18.0.37",
     "@types/react-dom": "18.0.11",
-    "@headlessui/react": "^1.7.16",
-    "@heroicons/react": "^2.0.18",
     "@vercel/kv": "^0.2.2",
     "autoprefixer": "^10.4.15",
+    "axios": "^1.5.0",
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.8",
+    "js-cookie": "^3.0.5",
     "next": "13.4.8",
     "postcss": "^8.4.28",
     "react": "18.2.0",
@@ -27,7 +29,9 @@
     "typescript": "^5.1.6"
   },
   "devDependencies": {
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "@types/ms": "^0.7.31",
+    "turbo": "^1.9.3"
   },
   "engines": {
     "node": ">=16.0.0"
