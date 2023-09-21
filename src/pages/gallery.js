@@ -1,10 +1,11 @@
-import Layout from '../../components/layout'
-import Navbar from '../../components/navbar'
+import Layout from '@/components/layout'
+import Navbar from '@/components/navbar'
 import styles from '@/styles/page.module.css'
+import Image from 'next/image'
 
 function Profile() {
   return (
-    <img
+    <Image
       className='w-50 h-50'
       src="https://i.imgur.com/MK3eW3As.jpg"
       alt="Katherine Johnson"
