@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import styles from '@/styles/navbar.module.scss'
 
-export default function Navbar() {
+export default function navbar() {
   return (
     <nav className={styles.nav}>
       <input className={styles.input} placeholder="Search..." />

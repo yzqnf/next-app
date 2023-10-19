@@ -23,15 +23,13 @@
         "name": "next"
       }
     ],
-    "baseUrl": "./",
+    // "baseUrl": "./",
     "paths": {
-      "@": [
-        "src"
-      ],
       "@/*": [
-        "src/*"
-      ],
-    }
+        "./*"
+      ]
+    },
+    "strictNullChecks": true
   },
   "include": [
     "next-env.d.ts",

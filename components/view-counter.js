@@ -1,6 +1,6 @@
 import { kv } from '@vercel/kv';
 
-export default async function ViewCounter() {
+export default async function viewCounter() {
   const views = await kv.incr('views') || 0
   console.log("views" + views)
 

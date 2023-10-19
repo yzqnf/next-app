@@ -7,7 +7,9 @@ function Profile() {
   return (
     <Image
       className='w-50 h-50'
-      src="https://i.imgur.com/MK3eW3As.jpg"
+      width={100}
+      height={100}
+      src="https://gitee.com/yzqnf/qdkfgf/raw/master/img/cmd4.png"
       alt="Katherine Johnson"
     />
   );
@@ -15,20 +17,14 @@ function Profile() {
 
 export default function Gallery() {
   return (
-    <section>
-      <h1>Amazing scientists</h1>
-      <Profile />
-      <Profile />
-      <Profile />
-    </section>
-  );
-}
-
-Gallery.getLayout = function getLayout(page) {
-  return (
     <Layout>
       <Navbar />
-      {page}
+      <section>
+        <h1>Amazing scientists</h1>
+        <Profile />
+        <Profile />
+        <Profile />
+      </section>
     </Layout>
-  )
+  );
 }
